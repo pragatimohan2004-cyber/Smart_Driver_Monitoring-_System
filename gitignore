@@ -1,0 +1,54 @@
+*# 🔹 Python cache
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# 🔹 Virtual environment
+
+.venv/
+venv/
+env/
+ENV/
+
+# 🔹 System files
+
+.DS_Store
+Thumbs.db
+
+# 🔹 Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+# 🔹 Logs
+
+*.log
+
+# 🔹 Environment variables
+
+.env
+
+# 🔹 Model files (ignore all, then allow specific ones)
+
+*.pkl
+!dashboard/model.pkl
+!dashboard/scaler.pkl
+
+# 🔹 Build / distribution
+
+build/
+dist/
+*.egg-info/
+
+# 🔹 VS Code
+
+.vscode/
+
+# 🔹 Mac/Linux temp files
+
+*.swp
+*.swo
+
+# 🔹 Streamlit cache
+
+.streamlit/
