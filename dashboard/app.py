@@ -12,8 +12,10 @@ from simulation.data_simulator import stream_data
 from edge.feature_extraction import extract_features
 
 # Load model
-model = pickle.load(open("model.pkl", "rb"))
+BASE_DIR = os.path.dirname(__file__)
+model_path = os.path.join(BASE_DIR, "model.pkl")
 
+model = pickle.load(open(model_path, "rb"))
 st.set_page_config(layout="wide")
 
 # ---------- HEADER ----------
