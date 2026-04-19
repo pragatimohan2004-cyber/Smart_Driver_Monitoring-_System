@@ -189,7 +189,7 @@ This project is open-source and available under the MIT License.
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Pragati Mohan**
 B.Tech Computer Science
 Manipal University Jaipur
 
